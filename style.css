@@ -33,7 +33,7 @@ margin-top: 300px;
 }
 .blog-title p{
     text-align: center;
-    /* margin-top: 50px; */   font-size: 60px;
+   font-size: 60px;
 }
 
 hr{
@@ -69,7 +69,7 @@ width: 500px;
 height: 500px;
 margin-left: 180px;
 border-radius: 15px;
-margin-top: 80px;
+margin-top: 100px;
 }
 #reflection-title{
 margin-left: 300px;
@@ -87,6 +87,7 @@ font-size: 70px;
 margin-top: 400px;
 }
 .detail-reflection {
+    margin-top: -60px;
 p{
     text-align: center;
     font-size: 30px;
@@ -94,91 +95,111 @@ p{
 }
 }
 .individual-reflections{
-display: flex;
+display: block;
 align-items: center;
 gap: 8%;
 }
 .reflection-1{
     font-size: 20px;
-    margin-left: 350px;
-
-    border-style: solid;
-    border-color: white;
-    border-radius: 15px;
+    margin-left: 550px;
     text-align: left;
-    width: 40%;
-    height: 700px;
-   font-size: 25px;
-    background-color: white;
-    box-shadow: 2px 0px 10px;
+    width: 30%;
+    height: 250px;
+    font-size: 25px;
     font-family: "Times New Roman", Times, serif;
     font-weight: 200;
     margin-top: 100px;
 
 }
+
+.reflection-2{
+    font-size: 20px;
+    margin-left: 550px;
+    text-align: left;
+    width: 48%;
+    height: 250px;
+    font-size: 25px;
+    font-family: "Times New Roman", Times, serif;
+    font-weight: 200;
+    margin-top: 10px;
+}
+
+.reflection-3{
+    font-size: 20px;
+    margin-left: 550px;
+    text-align: left;
+    width: 48%;
+    height: 250px;
+    font-size: 25px;
+    font-family: "Times New Roman", Times, serif;
+    font-weight: 200;
+    margin-top: 10px;
+}
 #thinking-img{
-    margin-top: 100px;
-    width: 490px;
-    height: 450px;
+    margin-top: -300px;
+    width: 300px;
+    height: 300px;
     border-radius: 20px;
+    margin-left: 128vb;
+    padding-bottom: 20px;
 }
 @media (max-width: 992px) {
     .blog-page{
         display: block;
         }
         
-        
-        #girl-img{
-            width: 100%;
-            height: 800px;
-            filter: brightness(0.7);
+#girl-img{
+    width: 100%;
+    height: 800px;
+    filter: brightness(0.7);
             }
-        .main-page h1{
-            position: relative;
-            text-align: center;
-            margin-top: -500px;
-            margin-left: 20px;
-            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-            color: white;
-            font-size: 90px;
-            }
+
+.main-page h1{
+    position: relative;
+    text-align: center;
+    margin-top: -500px;
+    margin-left: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    font-size: 90px;
+}
             
-        .main-page p{
-        color: white;
-        font-size: 90px;
+.main-page p{
+  color: white;
+  font-size: 90px;
             }
-        
-        .blog-title  {
-        margin-top: 300px;
+
+.blog-title  {
+    margin-top: 300px;
+    }
+.blog-title p{
+    text-align: center;
+   font-size: 60px;
         }
-        .blog-title p{
-            text-align: center;
-            /* margin-top: 50px; */   font-size: 60px;
-        }
         
-        hr{
-        margin-top: 100px;
-        width: 50%;
-        color: rgb(241, 18, 18);
-            }
+hr{
+    margin-top: 100px;
+    width: 50%;
+    color: rgb(241, 18, 18);
+}
         
-        .reflection-page{
-            display: flex;
-            }   
+.reflection-page{
+    display: flex;
+}   
         
-        .text-reflection{
-            border-style: solid;
-            border-color: white;
-            border-radius: 15px;
-            margin-top: 460px;
-            width: 60%;
-            height: 260px;
-            margin-left: -820px;
-            background-color: white;
-            box-shadow: 2px 0px 10px;
-            font-family: "Times New Roman", Times, serif;
-            font-weight: 200;
-            text-align: center;
+.text-reflection{
+ border-style: solid;
+ border-color: white;
+ border-radius: 15px;
+ margin-top: 460px;
+ width: 60%;
+ height: 260px;
+ margin-left: -820px;
+ background-color: white;
+ box-shadow: 2px 0px 10px;
+ font-family: "Times New Roman", Times, serif;
+ font-weight: 200;
+ text-align: center;
         }
         .reflection-page p{
             font-size: 30px;
